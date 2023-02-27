@@ -1,0 +1,52 @@
+{
+    "audio":"pipewire",
+    "bootloader":"systemd-bootctl",
+    "config_version": "2.5.1",
+    "debug": false,
+    "desktop-environment": "gnome",
+    "gfx_driver": "AMD / ATI (open-source)",
+    "harddrives": [
+        "dev/nvme0n1"
+    ],
+    "kernels": [
+        "linux",
+        "linux-zen"
+    ],
+    "keyboard-layout": "la-latin1",
+    "mirror-region": {
+        "Colombia": {
+            "http://edgeuno.bog2.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://mirrors.udenar.edu.co/archlinux/$repo/os/$arch": true,
+            "https://edgeuno.bog2.mm.fcix.net/archlinux/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "reflector",
+        "tff-droid",
+        "noto-fonts",
+        "ttf-jetbrains-mono",
+        "adobe-source-code-pro-fonts",
+        "ttf-fira-code",
+        "alacritty",
+        "chromium",
+        "btop"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "sys-language": "es_CO",
+    "timezone": "America/Bogota",
+    "version": "2.5.1"
+}
